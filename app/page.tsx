@@ -48,7 +48,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3 group cursor-pointer">
             <div className="w-5 h-5 bg-cyan-500 rounded-sm rotate-45 group-hover:rotate-0 transition-transform duration-500"></div>
-            <span className="text-white font-medium tracking-tight">ZK Healthcare</span>
+            <span className="text-white font-medium tracking-tight">Oneliac</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
