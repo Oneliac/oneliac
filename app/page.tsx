@@ -97,7 +97,7 @@ export default function LandingPage() {
             {/* Headline */}
             <h1 className="text-6xl md:text-8xl font-serif text-white leading-[0.95] tracking-tight mb-8">
               Privacy-preserving <br />
-              <span className="italic font-light text-zinc-500">Oneliac healthcare AI.</span>
+              <span className="italic font-light text-zinc-500">Zero-Knowledge Healthcare AI.</span>
             </h1>
 
             {/* Subheader */}
