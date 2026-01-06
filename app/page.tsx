@@ -118,15 +118,15 @@ export default function LandingPage() {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4">
-              <button className="group relative px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-all overflow-hidden">
+              <a href="https://github.com/Oneliac/Oneliac-ZKSnark-Circuits" className="group relative px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-all overflow-hidden inline-flex">
                 <span className="relative z-10 flex items-center gap-2">
                   Get Started
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </span>
-              </button>
-              <button className="px-8 py-4 border border-zinc-800 text-white hover:bg-zinc-900 rounded-full transition-all font-medium">
+              </a>
+              <a href="https://github.com/Oneliac" className="px-8 py-4 border border-zinc-800 text-white hover:bg-zinc-900 rounded-full transition-all font-medium inline-flex items-center">
                 View Documentation
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -350,9 +350,9 @@ export default function LandingPage() {
               <span className="text-zinc-500 font-mono text-sm uppercase">/ tx</span>
             </div>
             <p className="text-zinc-400 text-sm mb-8 h-10">Per validated state transition on Solana Mainnet.</p>
-            <button className="w-full py-3 rounded-lg font-medium transition-all bg-cyan-500 text-black hover:bg-cyan-400">
+            <a href="https://github.com/Oneliac" className="w-full py-3 rounded-lg font-medium transition-all bg-cyan-500 text-black hover:bg-cyan-400 inline-flex items-center justify-center">
               Start Building
-            </button>
+            </a>
           </div>
 
           {/* Tier 2 */}
@@ -369,9 +369,9 @@ export default function LandingPage() {
               <span className="text-zinc-500 font-mono text-sm uppercase">/ req</span>
             </div>
             <p className="text-zinc-400 text-sm mb-8 h-10">Per inference request for federated learning models.</p>
-            <button className="w-full py-3 rounded-lg font-medium transition-all bg-white/5 text-white hover:bg-white/10 border border-white/5">
+            <a href="https://github.com/Oneliac" className="w-full py-3 rounded-lg font-medium transition-all bg-white/5 text-white hover:bg-white/10 border border-white/5 inline-flex items-center justify-center">
               Enable Access
-            </button>
+            </a>
           </div>
 
           {/* Tier 3 */}
@@ -388,9 +388,9 @@ export default function LandingPage() {
               <span className="text-zinc-500 font-mono text-sm uppercase">/ mo</span>
             </div>
             <p className="text-zinc-400 text-sm mb-8 h-10">Fixed protocol fee for private DAO deployment.</p>
-            <button className="w-full py-3 rounded-lg font-medium transition-all bg-white/5 text-white hover:bg-white/10 border border-white/5">
+            <a href="https://github.com/Oneliac" className="w-full py-3 rounded-lg font-medium transition-all bg-white/5 text-white hover:bg-white/10 border border-white/5 inline-flex items-center justify-center">
               Deploy DAO
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -410,12 +410,12 @@ export default function LandingPage() {
             Join the network of autonomous agents processing patient data without exposure. The infrastructure for the machine economy is here.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-cyan-50 transition-colors">
+            <a href="https://github.com/Oneliac/oneliac_sdk" className="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-cyan-50 transition-colors inline-flex items-center justify-center">
               Get API Keys
-            </button>
-            <button className="border border-white/20 text-white px-8 py-4 rounded-full font-medium hover:bg-white/5 transition-colors">
+            </a>
+            <a href="https://github.com/Oneliac" className="border border-white/20 text-white px-8 py-4 rounded-full font-medium hover:bg-white/5 transition-colors inline-flex items-center justify-center">
               Read Documentation
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -463,7 +463,7 @@ export default function LandingPage() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Oneliac" className="hover:text-cyan-400 transition-colors">
+                <a href="https://github.com/Oneliac/Oneliac-Engine" className="hover:text-cyan-400 transition-colors">
                   API Reference
                 </a>
               </li>
