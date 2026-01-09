@@ -62,9 +62,6 @@ export default function LandingPage() {
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
             <a href="https://github.com/Oneliac" className="hover:text-white transition-colors">
-              Solutions
-            </a>
-            <a href="https://github.com/Oneliac" className="hover:text-white transition-colors">
               Developers
             </a>
             <a href="https://t.me/oneliac_bot" className="hover:text-white transition-colors">
@@ -77,7 +74,7 @@ export default function LandingPage() {
              
             </a>
             <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-50 transition-colors"  >
-            <a href="https://github.com/Oneliac" className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-50 transition-colors">
+            <a href="https://docs.oneliac.xyz" className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-50 transition-colors">
             Documentation 
             </a>
             </button>
@@ -118,15 +115,18 @@ export default function LandingPage() {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4">
-              <a href="https://github.com/Oneliac/Oneliac-ZKSnark-Circuits" className="group relative px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-all overflow-hidden inline-flex">
-                <span className="relative z-10 flex items-center gap-2">
-                  Get Started
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </span>
-              </a>
-              <a href="https://github.com/Oneliac" className="px-8 py-4 border border-zinc-800 text-white hover:bg-zinc-900 rounded-full transition-all font-medium inline-flex items-center">
-                View Documentation
-              </a>
+              <a href="https://www.npmjs.com/package/oneliac" className="group relative px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-all overflow-hidden inline-flex">
+                 <span className="relative z-10 flex items-center gap-2">
+                   Build with Node.js
+                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                 </span>
+               </a>
+              <a href="https://pypi.org/project/oneliac/0.1.0/" className="px-8 py-4 border border-zinc-800 text-white hover:bg-zinc-900 rounded-full transition-all font-medium inline-flex items-center">
+              <span className="relative z-10 flex items-center gap-2">
+                   Build with Python
+                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                 </span>
+               </a>
             </div>
           </div>
         </div>
@@ -350,7 +350,7 @@ export default function LandingPage() {
               <span className="text-zinc-500 font-mono text-sm uppercase">/ tx</span>
             </div>
             <p className="text-zinc-400 text-sm mb-8 h-10">Per validated state transition on Solana Mainnet.</p>
-            <a href="https://github.com/Oneliac" className="w-full py-3 rounded-lg font-medium transition-all bg-cyan-500 text-black hover:bg-cyan-400 inline-flex items-center justify-center">
+            <a href="https://github.com/Oneliac/oneliac_sdk" className="w-full py-3 rounded-lg font-medium transition-all bg-cyan-500 text-black hover:bg-cyan-400 inline-flex items-center justify-center">
               Start Building
             </a>
           </div>
@@ -388,7 +388,7 @@ export default function LandingPage() {
               <span className="text-zinc-500 font-mono text-sm uppercase">/ mo</span>
             </div>
             <p className="text-zinc-400 text-sm mb-8 h-10">Fixed protocol fee for private DAO deployment.</p>
-            <a href="https://github.com/Oneliac" className="w-full py-3 rounded-lg font-medium transition-all bg-white/5 text-white hover:bg-white/10 border border-white/5 inline-flex items-center justify-center">
+            <a href="https://pypi.org/project/oneliac/0.1.0/" className="w-full py-3 rounded-lg font-medium transition-all bg-white/5 text-white hover:bg-white/10 border border-white/5 inline-flex items-center justify-center">
               Deploy DAO
             </a>
           </div>
@@ -410,10 +410,10 @@ export default function LandingPage() {
             Join the network of autonomous agents processing patient data without exposure. The infrastructure for the machine economy is here.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="https://github.com/Oneliac/oneliac_sdk" className="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-cyan-50 transition-colors inline-flex items-center justify-center">
+            <a href="https://docs.oneliac.xyz/docs/api-reference/authentication" className="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-cyan-50 transition-colors inline-flex items-center justify-center">
               Get API Keys
             </a>
-            <a href="https://github.com/Oneliac" className="border border-white/20 text-white px-8 py-4 rounded-full font-medium hover:bg-white/5 transition-colors inline-flex items-center justify-center">
+            <a href="https://docs.oneliac.xyz/" className="border border-white/20 text-white px-8 py-4 rounded-full font-medium hover:bg-white/5 transition-colors inline-flex items-center justify-center">
               Read Documentation
             </a>
           </div>
@@ -442,17 +442,12 @@ export default function LandingPage() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Oneliac" className="hover:text-cyan-400 transition-colors">
-                 Governance
-                </a>
+                <a href="https://github.com/Oneliac/Oneliac-Solana" className="hover:text-cyan-400 transition-colors">
+                   Governance
+                  </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-cyan-400 transition-colors">
-                  
-                </a>
-              </li>
-            </ul>
-          </div>
+              </ul>
+              </div>
 
           <div>
             <h4 className="text-white font-medium mb-6">Resources</h4>
@@ -463,38 +458,18 @@ export default function LandingPage() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Oneliac/Oneliac-Engine" className="hover:text-cyan-400 transition-colors">
-                  API Reference
-                </a>
+                <a href="https://docs.oneliac.xyz/docs/api-reference/endpoints" className="hover:text-cyan-400 transition-colors">
+                    API Reference
+                  </a>
               </li>
-              <li>
-                <a href="https://github.com/Oneliac" className="hover:text-cyan-400 transition-colors">
-                  Status
-                </a>
-              </li>
-            </ul>
-          </div>
+              </ul>
+              </div>
 
-          <div>
-            <h4 className="text-white font-medium mb-6">Company</h4>
-            <ul className="space-y-4 text-sm text-zinc-500">
-              <li>
-                <a href="https://github.com/Oneliac" className="hover:text-cyan-400 transition-colors">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-cyan-400 transition-colors">
-                  
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-cyan-400 transition-colors">
-                
-                </a>
-              </li>
-            </ul>
-          </div>
+              <div>
+              <h4 className="text-white font-medium mb-6">Company</h4>
+              <ul className="space-y-4 text-sm text-zinc-500">
+              </ul>
+              </div>
         </div>
         <div className="max-w-7xl mx-auto px-6 mt-20 pt-8 border-t border-white/5 space-y-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-xs text-zinc-600 font-mono">
